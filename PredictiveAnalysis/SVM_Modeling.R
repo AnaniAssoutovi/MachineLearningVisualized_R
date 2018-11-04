@@ -63,7 +63,7 @@ setWorkDir()
 getwd()
 
 # Loading the dataset
-Data <- read.csv("tictactoe.csv", head =F, sep =",", stringsAsFactors =T)
+Data <- read.csv(file.choose(), head =F, sep =",", stringsAsFactors =T)
 
 # Let us do a quick visual analysis of the dataset
 head(Data)
